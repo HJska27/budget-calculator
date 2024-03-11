@@ -1,0 +1,245 @@
+#progress {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.line{
+display: block;
+float:unset ;
+}
+#num1 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+#num2 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+#num3 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+#num4 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+#num5 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+#num6 {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    width: 20px;
+    background-image: url("images/Ellipse 2.png");
+    background-size: contain;
+    background-position: 50px;
+    background-color:  #4C8AE7;
+    
+    border-radius: 50%;
+}
+
+.income {
+    display: flex;
+    flex-direction: column;
+}
+
+.incomerow {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+
+    margin-left: 5em;
+
+    
+}
+
+.incomerow1 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+
+    margin-left: 5em;
+
+}
+
+.incomerow2 {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    margin-left: 5em;
+}
+
+.page-content {
+    width: 20vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.dropdowncontent {
+    display: none;
+}
+
+.test:hover .dropdowncontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.career {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.expenses {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+/* triggers the dropdown menu */
+
+.dropdown span {
+    background-color: black;
+    color: white;
+
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.parent_dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.table {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    border: black solid 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+#tax {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 20%;
+    padding-top: 5%;
+
+
+}
